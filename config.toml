@@ -1,0 +1,32 @@
+title = "EDUAYME Hugo Theme"
+author = "Eduard Aymerich"
+paginate = 3
+languageCode = "en-us"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+theme = "eduayme"
+
+[params]
+  website = "https://eduayme.github.io"
+  linkedin = "https://linkedin.com/in/eduayme"
+  twitter = "https://twitter.com/eduardaymerich"
+  github = "https://github.com/eduayme"
+
+[menu]
+    [[menu.main]]
+        identifier = "home"
+        name = "home"
+        url = "/"
+        weight = 1
+
+    [[menu.main]]
+        identifier = "categories"
+        name = "categories"
+        url = "/categories/"
+        weight = 2
+    [[menu.main]]
+        identifier = "tags"
+        name = "tags"
+        url = "/tags/"
+        weight = 3

@@ -1,0 +1,3 @@
+[submodule "themes/eduayme"]
+	path = themes/eduayme
+	url = git@github.com:eduayme/eduayme-hugo-theme.git
